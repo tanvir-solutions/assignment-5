@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Hub| Login</title>
+    <link rel="shortcut icon" href="assets/github-logo.png" type="image/x-icon">
+
+    <!-- talwind + daisy ui -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+        <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body class="min-h-screen max-w-md bg-base-100 shrink-0 shadow mx-auto">
+    <div class="logo w-[100px] mx-auto pt-10">
+        <img src="assets/github-logo.png" alt="GitHub Logo">
+    </div>
+    <div class="text pt-5">
+        <h1 class="text-2xl font-bold text-center">GitHub Issues Tracker</h1>
+        <p class="text-center text-neutral">Sign in to manage your issues</p>
+    </div>
+    <div class="form pt-10 ">
+        <div class="card bg-base-100 w-full max-w-sm  mx-auto rounded-2xl">
+            <div class="card-body">
+                <fieldset class="fieldset">
+                    <label class="label rounded-[10px] font-bold text-neutral py-1">Username</label>
+
+                    <input id="user-name" maxlength="" minlength="4" type="text"
+                        class="input rounded-[10px] bg-base-200" value="" placeholder="Enter your username" />
+                    <label class="label font-bold text-neutral py-1">Password</label>
+
+                    <input id="password" maxlength="" minlength="4" type="text"
+                        class="input rounded-[10px] text-neutral bg-base-200 " placeholder="Enter Password" />
+
+                    <button id="sign-btn" class="btn btn-primary mt-4 rounded-[10px] w-[322px]">sign in</button>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <section class=" text-center pt-5">
+        <div style="display: flex; align-items: center; text-align: center; margin: 20px 0;">
+            <hr style="flex: 1; border: none; border-top: 1px dashed #cbd5e1; margin: 0;">
+            <span style="padding: 0 15px; color: #64748b; font-size: 14px; font-weight: 500;">OR</span>
+            <hr style="flex: 1; border: none; border-top: 1px dashed #cbd5e1; margin: 0;">
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+
+</html>
